@@ -1,0 +1,181 @@
+:root{
+    --fundo:#D2F4D0;
+    --fundo-botao:#FF5909;
+    --titulos:#2B4E40;
+    --subtitulos:#000000;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--fundo);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.barra-topo img{
+    margin:4px; 
+
+}
+
+.logo-empresa{
+    width: 100%;
+    max-width: 150px;
+    height:60px;
+
+    background-color: #2B4E40;
+    color:white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.barra-topo{
+    position:fixed;
+    position: relative;
+    background-color: #1FB399;
+    left: 0;
+    right: 0;
+    position: sticky;
+    padding: 2px;
+    width: 100%;
+    margin-bottom:40px ;
+}
+
+.company{
+    color: var(--subtitulos);
+    position: relative;
+    max-width: 300px;
+}
+
+.name-company{
+    color: var(--titulos);
+    margin-bottom: 2px;
+}
+
+.subtitle{
+    font-size: 16px;
+    font-size:large;
+    left: 20px;
+    margin-bottom: auto;
+}
+
+
+
+.conteudo{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.navegacao{
+    position: absolute;
+    right:20px;
+    padding-top:3px ;
+    margin-right:80px ;
+    font-size: 20px;
+}
+
+
+.barra-topo ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.barra-topo li{
+    float: left;
+    margin-left:20px;
+    padding: 4px;
+}
+
+.barra-topo a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#lista5{
+    background-color: var(--fundo-botao);
+    border-radius: 7px;
+}
+
+.aviso{
+    position: relative;
+    margin-top:0px ;
+    background-color:#E0C9BC;
+    margin: 80px;
+    padding:5px;
+    text-align: center;
+
+}
+.aviso h1{
+    color: var(--titulos);
+}
+
+#fechar-aviso{
+    color: white;
+    background-color: red;
+    position:absolute;
+    top: 1px;
+    right: 1px;
+    margin: 2px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+
+
+.informacoes{
+    text-align: center;
+    display: flex;
+}
+
+.text1, .text2 {
+    width: 750px;
+    height: 500px;
+    background-color:#164e4a;
+    text-align: center;
+    margin: 80px;
+    padding: 40px;
+    letter-spacing: 0.5px;
+    border-radius:30px ;
+
+}
+
+.text1 h1, .text2 h1{
+    font-size:48px;
+    color: #FF5909;
+}
+
+
+
+.text1, .text2 ul li{
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+
+li{
+    margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
